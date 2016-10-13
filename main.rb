@@ -1,5 +1,4 @@
 # welcome to my text adventure!
-start
 puts "Hello player! Are you ready to begin?"
 reponse = gets.chomp
 
@@ -11,6 +10,6 @@ def response
     exit
   else
     puts "ERROR, BEEP BOOP, DOES NOT COMPUTE."
-    start
+    response
   end
 end
